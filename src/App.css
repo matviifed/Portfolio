@@ -2,6 +2,7 @@ body{
       transition: 0.1s linear;
 }
 
+/*---------HEADER----------*/
 .header{
   width: 100%;
   height: 100%;
@@ -111,4 +112,51 @@ body.dark-theme {
 
 .theme-toggle:hover {
   transform: scale(1.1);
+}
+
+
+/*----------HERO----------*/
+
+.section{
+  width: 100%;
+  height: 100%;
+}
+
+.section__container{
+    max-width: 80rem;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.section__container__inner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__title{
+  font-size: 3.75rem;
+  margin: 0;
+}
+
+.grey{
+  color: #4B5563;
+}
+
+.left__block, .right__block{
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__image{
+  max-width: 17.5rem;
+  max-height: 20rem;
+  object-fit: cover;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
 }
