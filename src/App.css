@@ -1,7 +1,17 @@
+body{
+      transition: 0.1s linear;
+}
+
 .header{
   width: 100%;
   height: 100%;
   position: relative;
+}
+
+.header__container__logo{
+  align-items: center;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .header__continer{
@@ -13,6 +23,11 @@
   flex-direction: row;
   margin: 0 auto;
   padding-top: 25px;
+}
+
+.logo{
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .header__container__nav{
@@ -64,9 +79,36 @@
   width: 100%;
 }
 
-.nav__button{
+.nav__buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav__button__download{
   padding: 10px 15px 10px 15px;
   background-color: #000;
   color: #fff;
   border-radius: 12px;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: inherit;
+  padding: 5px;
+  transition: 0.5s linear;
+  width: 25px;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
 }
