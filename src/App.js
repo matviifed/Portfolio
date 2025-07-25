@@ -2,8 +2,8 @@
 import './App.css';
 import './components/Header'
 import { Header } from './components/Header';
-import './components/AboutSection'
-import AboutSection from './components/AboutSection'
+import './sections/AboutSection'
+import AboutSection from './sections/AboutSection'
 function App() {
   return (
     <>
