@@ -99,6 +99,7 @@ body.dark-theme {
   color: white;
 }
 
+
 .theme-toggle {
   background: none;
   border: none;
@@ -132,7 +133,7 @@ body.dark-theme {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
 .hero__title{
@@ -159,4 +160,28 @@ body.dark-theme {
 .row{
   display: flex;
   flex-direction: column;
+}
+
+.icons__container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-link{
+  color: #000;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.icon-link:hover{
+  color: blue;
+}
+
+body.dark-theme .icon {
+  color: #fff;
+}
+
+body.dark-theme .grey {
+  color: #fff;
 }
