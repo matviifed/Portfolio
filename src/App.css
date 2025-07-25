@@ -187,3 +187,26 @@ body.dark-theme .icon {
 body.dark-theme .grey {
   color: #fff;
 }
+
+/* ABOUT ME SECTION */
+
+.section__heading__container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__title{
+  color: #4B5563;
+  border-radius: 12px;
+  padding: 10px 20px;
+  border: 1px #4B5563;
+  background: #E5E7EB;
+  font-size: 0.875rem;
+  max-width: 100px;
+}
+
+.section__description{
+  font-size: 1.25rem;
+}

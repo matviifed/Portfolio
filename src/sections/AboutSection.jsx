@@ -1,23 +1,20 @@
 import React from 'react';
-import HeroTextBlock from '../components/HeroTextBlock';
-import LocationStatus from '../components/LocationStatus';
-import SocialIcons from '../components/SocialIcons';
-import HeroImage from '../components/HeroImage';
+import SectionHeading from '../components/SectionHeading';
+import SectionImage from '../components/SectionImage';
 
-const AboutSection = ({ title}) => {
-  title = "Hello, I'm Matvii"
+const AboutSection = () => {
+  const title = "About Me";
+  const description = "Here is some info about me:";
+  const path = "/about-image.jpg"; 
+
   return (
     <section className="section">
       <div className="section__container">
-        <div className="section__container__inner">
-          <div className="left__block">
-            <HeroTextBlock title={title} />
-            <LocationStatus />
-            <SocialIcons />
-          </div>
-          <div className="right__block">
-            <HeroImage />
-          </div>
+        <SectionHeading title={title} description={description} />
+        <div className="left__block">
+          <SectionImage path={path} />
+        </div>
+        <div className="right__block">
         </div>
       </div>
     </section>
