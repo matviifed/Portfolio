@@ -4,9 +4,10 @@ import './components/Header'
 import { Header } from './components/Header';
 import './sections/HeroSection'
 import './sections/AboutSection'
-
+import './sections/ToolsSection'
 import HeroSection from './sections/HeroSection'
 import AboutSection from './sections/AboutSection'
+import ToolsSection from './sections/ToolsSection';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <HeroSection />
         <AboutSection />
+        <ToolsSection />
     </>
   );
 }

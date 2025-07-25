@@ -210,3 +210,56 @@ body.dark-theme .grey {
 .section__description{
   font-size: 1.25rem;
 }
+
+.section__image{
+  max-width: 20rem;
+  max-height: 24rem;
+  object-fit: cover;
+  box-shadow: 10px 5px 5px #4B5563;
+  border-radius: 2px;
+}
+
+
+/* TOOLS SECTION */
+
+.grid__container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  };
+
+  .grid__container__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .item__image__box{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .item__image__box-image{
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  };
+  
+.item__image__box-text{
+    font-size: '14px';
+    text-align: 'center';
+    color: '#374151';
+    font-weight: '500';
+}
